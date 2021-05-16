@@ -15,7 +15,8 @@ const HomePage = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="../images/Amaz1-1.jpg"
+
+                        src="/images/Amaz1-1.jpg"
                         alt="First slide"
                     />
 
@@ -23,7 +24,7 @@ const HomePage = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="../images/Amaz3-1.jpg"
+                        src="/images/Amaz3-1.jpg"
                         alt="Second slide"
                     />
 
@@ -35,7 +36,7 @@ const HomePage = () => {
                     <Card.Body >
                         <Card.Title>Electronics</Card.Title>
                         <Card.Link href="/categoryPage">
-                        <Card.Img variant="top" src="../images/Am3.jpg" />
+                        <Card.Img variant="top" src="./images/Am3.jpg" />
                         </Card.Link>
                         <Card.Link href="#">See More</Card.Link>
 
@@ -46,7 +47,7 @@ const HomePage = () => {
                     <Card.Body>
                         <Card.Title>Mobile Phones</Card.Title>
                         <Card.Link href="/category1Page">
-                        <Card.Img variant="top" src="../images/Am6.jpg" />
+                        <Card.Img variant="top" src="./images/Am6.jpg" />
                         </Card.Link>
                         <Card.Link href="#">See More</Card.Link>
 
@@ -57,7 +58,7 @@ const HomePage = () => {
                     <Card.Body>
                         <Card.Title>Laptops</Card.Title>
                         <Card.Link href="/category2Page">
-                        <Card.Img variant="top" src="../images/Am2.jpg" />
+                        <Card.Img variant="top" src="./images/Am2.jpg" />
                         </Card.Link>
                         <Card.Link href="#">See More</Card.Link>
 
@@ -68,7 +69,7 @@ const HomePage = () => {
                     <Card.Body>
                         <Card.Title>Tablets</Card.Title>
                         <Card.Link href="/category3Page">
-                        <Card.Img variant="top" src="../images/tablet.jpg" />
+                        <Card.Img variant="top" src="./images/tablet.jpg" />
                         </Card.Link>
                         <Card.Link href="#">See More</Card.Link>
 
@@ -77,7 +78,7 @@ const HomePage = () => {
                 </Card>
             </CardDeck>
             <Card.Link href="#">
-            <Image className='m-2' src="../images/Amaz2.jpg" fluid />
+            <Image className='m-2' src="./images/Amaz2.jpg" fluid />
             </Card.Link>
 
 
@@ -85,7 +86,7 @@ const HomePage = () => {
             <CardDeck className='m-1'>
                 <Card border='warning' className='ml-3 mt-2 p-2'>
                     <Card.Link href="/productPage">
-                            <Card.Img variant="top" src='../images/camera.jpg' />
+                            <Card.Img variant="top" src='./images/camera.jpg' />
                         </Card.Link>
                        <Card.Body>
                         <Card.Title>Camera</Card.Title>
@@ -101,7 +102,7 @@ const HomePage = () => {
                 </Card>
                 <Card border='warning' className='ml-3 mt-2 p-2'>
                     <Card.Link href="/productPage">
-                        <Card.Img variant="top" src='../images/mouse.jpg' />
+                        <Card.Img variant="top" src='./images/mouse.jpg' />
                     </Card.Link>
                     <Card.Body>
                         <Card.Title>Mouse</Card.Title>
@@ -117,7 +118,7 @@ const HomePage = () => {
                 </Card>
                 <Card border='warning' className='ml-3 mt-2 p-2'>
                     <Card.Link href="/productPage">
-                        <Card.Img variant="top" src='../images/phone.jpg' />
+                        <Card.Img variant="top" src='./images/phone.jpg' />
                     </Card.Link>
                     <Card.Body>
                         <Card.Title>Phone</Card.Title>
@@ -133,7 +134,7 @@ const HomePage = () => {
                 </Card>
                 <Card border='warning' className='ml-3 mt-2 p-2'>
                     <Card.Link href="/productPage">
-                        <Card.Img variant="top" src="../images/playstation.jpg" />
+                        <Card.Img variant="top" src="./images/playstation.jpg" />
                     </Card.Link>
                     <Card.Body>
                         <Card.Title>Playstation</Card.Title>

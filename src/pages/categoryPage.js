@@ -21,11 +21,12 @@ const CategoryPage = () => {
                 </Col>
                 <Col sm={9} className='pt-3 pl-5 '>
                     <Product />
-
                 </Col>
-                <Cart />
-                <ProductPage />
             </Row>
+
+            <Cart />
+            <ProductPage />
+
         </Container>
     );
 };

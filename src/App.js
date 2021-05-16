@@ -18,26 +18,29 @@ import {Cart} from "./component/cart";
 import {Product} from "./component/product";
 
 
-
 function App() {
-    return (
 
-        <Router>
+
+    return (
+        <Router >
                 <Header/>
-            <Switch>
+                <Switch>
                 <Route path='/' exact component={HomePage}/>
                 <Route path='/register' exact component={Register}/>
                 <Route path='/signIn' exact component={SignIn}/>
 
-                    <Route path='/categoryPage' exact component={CategoryPage}/>
-                    <Route path='/category1Page' exact component={Category1Page}/>
-                    <Route path='/category2Page' exact component={Category2Page}/>
-                    <Route path='/category3Page' exact component={Category3Page}/>
-                <Route path='/productPage' component={ProductPage} />
+                <Route path='/categoryPage' ><CategoryPage /></Route>
+                <Route path='/category1Page' exact component={Category1Page}/>
+                <Route path='/category2Page' exact component={Category2Page}/>
+                <Route path='/category3Page' exact component={Category3Page}/>
 
-                <Route path='/cart' component={Cart}/>
-                <Router path='/product/:id' component={Product}/>
-            </Switch>
+                <Route path='/productPage' component={ProductPage } />
+                <Route path='/product' ><Product /></Route>
+
+                <Route path='/cart' component={Cart } />
+
+
+                </Switch>
 
             <Footer />
         </Router>

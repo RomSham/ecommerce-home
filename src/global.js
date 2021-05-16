@@ -7,5 +7,6 @@ export interface ProductItem {
     imageUrl: string,
     imageUrl1: string,
     imageUrl2: string,
-    added?: boolean
+    added?: boolean,
+    addedProduct?: boolean
 }

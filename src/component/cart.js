@@ -8,13 +8,13 @@ import {ProductItem} from "../global";
 
 const Cart = (props) => {
     const products = useSelector((state: ProductItem[]) => state)
+
     return(
         <Container  className="justify-content-center p-5" >
             <h1 className='p-5 '>Cart</h1>
             <p className='pl-5 '>You have {products.filter(product => product.added).length} items in your cart</p>
 
-                   {products
-                       .filter(product => product.added)
+                   {products.filter(product => product.added)
                        .map((product: ProductItem) => (
 
                            <React.Fragment key={product.id}>
@@ -44,7 +44,7 @@ const Cart = (props) => {
                     .reduce((acc, current) => (acc += current.price), 0)
             ).toFixed(2)}
             </ListGroup.Item>
-
+            <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         </Container>
     )
 }
